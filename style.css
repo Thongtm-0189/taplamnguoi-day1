@@ -58,9 +58,6 @@ p{
 }
 
 @media screen and (max-width:900px){
-    *{
-        font-size: 90%;
-    }
     .option{
         display: block;
     }
@@ -72,5 +69,10 @@ p{
     }
     .btn-input{
         width: 30%;
+    }
+}
+@media screen and (max-width:400px){
+    *{
+        font-size: 90%;
     }
 }
