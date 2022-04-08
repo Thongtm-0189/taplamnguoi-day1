@@ -1,6 +1,6 @@
 *{
     text-align: center;
-    font-size: 101%;
+    font-size: 102%;
 }
 
 body{
@@ -40,19 +40,17 @@ body{
 }
 
 .color input{
-    width: 50%;
+    width: 40%;
 }
 .btn{
     border: none;
     border-radius: 5px;
     width: 30%;
-    height: 70%;
 }
 .btn-input{
     border: none;
     border-radius: 5px;
-    width: auto;
-    height: 50%;
+    width: 30%;
 }
 
 p{
@@ -60,6 +58,9 @@ p{
 }
 
 @media screen and (max-width:900px){
+    *{
+        font-size: 90%;
+    }
     .option{
         display: block;
     }
@@ -71,9 +72,5 @@ p{
     }
     .btn-input{
         width: 30%;
-
     }
-}
-@media screen and (max-width:600px){
-    
 }
