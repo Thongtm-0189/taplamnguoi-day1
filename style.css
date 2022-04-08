@@ -17,7 +17,7 @@ body{
     width: 60vw;
 }
 .option{
-    margin: 10px;
+    padding: 10px 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,14 +34,13 @@ body{
 .color{
     display: flex;
     align-items: center;
-    margin: 0 10px;
-    width: calc(100%/2);
+    margin: 0 5px;
+    width: 50%;
     height: 100%;
 }
 
 .color input{
-    width: 100px;
-    margin: 0 5px;
+    width: 50%;
 }
 .btn{
     border: none;
@@ -52,8 +51,14 @@ body{
 .btn-input{
     border: none;
     border-radius: 5px;
-    width: 100%;
+    width: auto;
     height: 50%;
+    margin-left: 5px;
+    
+}
+
+p{
+    font-weight: 600;
 }
 
 @media screen and (max-width:900px){
@@ -68,10 +73,9 @@ body{
     }
     .btn-input{
         width: 30%;
+
     }
 }
 @media screen and (max-width:600px){
-    .color input{
-        width: 70px;
-    }
+    
 }
