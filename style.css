@@ -51,6 +51,7 @@ body{
     border: none;
     border-radius: 5px;
     width: 30%;
+<<<<<<< HEAD
 }
 
 p{
@@ -59,6 +60,15 @@ p{
 
 @media screen and (max-width:900px){
     
+=======
+}
+
+p{
+    font-weight: 600;
+}
+
+@media screen and (max-width:900px){
+>>>>>>> c2701f678a52bbe0bcc18d4197621a2b37ad2228
     .option{
         display: block;
     }
@@ -76,4 +86,8 @@ p{
     *{
         font-size: 94%;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c2701f678a52bbe0bcc18d4197621a2b37ad2228
